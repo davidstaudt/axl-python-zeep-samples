@@ -32,7 +32,7 @@ from zeep.exceptions import Fault
 # Edit .env file to specify your Webex site/user details
 import os
 from dotenv import load_dotenv
-load_dotenv()
+load_dotenv(override)
 
 # Change to true to enable output of request/response headers and XML
 DEBUG = False

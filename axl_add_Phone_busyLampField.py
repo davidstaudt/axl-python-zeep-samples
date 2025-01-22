@@ -35,10 +35,10 @@ import urllib3
 import os
 from dotenv import load_dotenv
 
-load_dotenv()
+load_dotenv(override=True)
 
 # Change to true to enable output of request/response headers and XML
-DEBUG = False
+DEBUG = True
 
 # The WSDL is a local file in the working directory, see README
 WSDL_FILE = "schema/AXLAPI.wsdl"

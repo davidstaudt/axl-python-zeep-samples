@@ -38,7 +38,7 @@ import urllib3
 import os
 from dotenv import load_dotenv
 
-load_dotenv()
+load_dotenv(override)
 
 # Change to true to enable output of request/response headers and XML
 DEBUG = False

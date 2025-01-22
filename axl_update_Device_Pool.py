@@ -46,7 +46,7 @@ import urllib3
 # Edit .env file to specify your Webex site/user details
 import os
 from dotenv import load_dotenv
-load_dotenv()
+load_dotenv(override)
 
 # The WSDL is a local file in the project root, see README
 WSDL_FILE = 'schema/AXLAPI.wsdl'
